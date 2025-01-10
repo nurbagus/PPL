@@ -10,8 +10,8 @@
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a href="/" class="{{ request()->is('/') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium" {{ request()->is('/') ? 'aria-current="page"' : '' }}>Beranda</a>
               <a href="/blog" class="{{ request()->is('blog') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium" {{ request()->is('blog') ? 'aria-current="page"' : '' }}>Blog</a>
-              <a href="/tentang" class="{{ request()->is('tentang') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium" {{ request()->is('blog') ? 'aria-current="page"' : '' }}>tentang</a>
-              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Layanan</a>
+              <a href="/tentang" class="{{ request()->is('tentang') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium" {{ request()->is('tentang') ? 'aria-current="page"' : '' }}>tentang</a>
+              <a href="/layanan" class="{{ request()->is('layanan') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium" {{ request()->is('layanan') ? 'aria-current="page"' : '' }}>layanan</a>
               <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Galeri kami</a>
             </div>
           </div>

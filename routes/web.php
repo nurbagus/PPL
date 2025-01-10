@@ -13,3 +13,7 @@ Route::get('/blog', function () {
 Route::get('/tentang', function () {
     return view('tentang', ['title' => 'tentang']);
 });
+
+Route::get('/layanan', function () {
+    return view('layanan', ['title' => 'layanan']);
+});
