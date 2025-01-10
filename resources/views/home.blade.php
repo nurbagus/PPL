@@ -15,21 +15,21 @@
     <div class="container mx-auto py-12">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-white shadow-lg rounded-md p-6 text-center">
-                <img src="{{ asset('img/cleaning.png') }}" alt="Cleaning Service" class="mx-auto w-24 h-24">
+                <img src="img/cucis.jpg" alt="Cleaning Service" class="mx-auto w-24 h-24">
                 <h3 class="mt-4 text-xl font-bold">Cuci Sepatu</h3>
                 <p class="mt-2 text-gray-600">
                     Layanan cuci sepatu profesional untuk menjaga kebersihan dan keharuman sepatu Anda.
                 </p>
             </div>
             <div class="bg-white shadow-lg rounded-md p-6 text-center">
-                <img src="{{ asset('img/repair.png') }}" alt="Repair Service" class="mx-auto w-24 h-24">
+                <img src="img/repairs.jpg" alt="Repair Service" class="mx-auto w-24 h-24">
                 <h3 class="mt-4 text-xl font-bold">Perbaikan Sepatu</h3>
                 <p class="mt-2 text-gray-600">
                     Solusi perbaikan sepatu untuk semua jenis kerusakan, dari sol lepas hingga jahitan putus.
                 </p>
             </div>
             <div class="bg-white shadow-lg rounded-md p-6 text-center">
-                <img src="{{ asset('img/customization.png') }}" alt="Customization Service" class="mx-auto w-24 h-24">
+                <img src="img/customs.jpg" alt="Customization Service" class="mx-auto w-24 h-24">
                 <h3 class="mt-4 text-xl font-bold">Kustomisasi Sepatu</h3>
                 <p class="mt-2 text-gray-600">
                     Layanan personalisasi untuk membuat sepatu Anda unik sesuai gaya dan kepribadian Anda.

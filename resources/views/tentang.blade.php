@@ -12,7 +12,7 @@
     <div class="container mx-auto py-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-                <img src="{{ asset('img/about-us.jpg') }}" alt="Tentang Kami" class="rounded-lg shadow-md">
+                <img src="img/misi.jpg" alt="Tentang Kami" class="rounded-lg shadow-md">
             </div>
             <div>
                 <h2 class="text-3xl font-bold text-gray-800">Misi Kami</h2>
